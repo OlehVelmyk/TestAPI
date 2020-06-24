@@ -1,0 +1,12 @@
+in\reqres\endpoints\UsersEndpoints.class
+in\reqres\tests\N_0001_CreateUserTest.class
+in\reqres\dataProvider\UserId.class
+in\reqres\logging\TestListener.class
+in\reqres\model\UserModel.class
+in\reqres\tests\N_0004_DeleteUserByIdTest.class
+in\reqres\tests\N_0003_UpdateUserByIdTest.class
+in\reqres\actionHelpers\GetParametersFromResponses.class
+in\reqres\logging\CustomReporter.class
+in\reqres\tests\N_0002_GetUserByIdTest.class
+in\reqres\actionHelpers\ResponseBody.class
+in\reqres\endpoints\BaseEndpoint.class

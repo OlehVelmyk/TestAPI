@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Demo Tests" verbose="1" parallel="none" thread-count="4">
+    <listeners>
+        <listener class-name="in.reqres.logging.TestListener" />
+    </listeners>
+
+    <test name="Create a user">
+        <classes>
+            <class name="in.reqres.tests.N_0001_CreateUserTest"/>
+        </classes>
+    </test>
+    <test name="Get a user by ID">
+        <classes>
+            <class name="in.reqres.tests.N_0002_GetUserByIdTest"/>
+        </classes>
+    </test>
+    <test name="Update a user">
+        <classes>
+            <class name="in.reqres.tests.N_0003_UpdateUserByIdTest"/>
+        </classes>
+    </test>
+    <test name="Delete a user">
+        <classes>
+            <class name="in.reqres.tests.N_0004_DeleteUserByIdTest"/>
+        </classes>
+    </test>
+</suite>
