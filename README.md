@@ -6,7 +6,7 @@ API Automation task:
 RetroFit etc.) try to implement CRUD operations around the User flow using the
 following Portal:
 - https://reqres.in/
-3. Tasks
+2. Tasks
 - Create User
 - Get Single User by ID (already existing f.e. 12)
 - Update user by Patch/Put methods
