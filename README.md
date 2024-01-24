@@ -1,12 +1,12 @@
 1) Maven project. Run tests - "mvn clean test"
 2) Results review - Project folder/reports/ folder with date and time /html/index.html
 
-API Automation task
+API Automation task:
 1. Using any existing/available Lib/Framework of API testing (RestAssured/ Karate/
 RetroFit etc.) try to implement CRUD operations around the User flow using the
 following Portal:
 
-https://reqres.in/
+https://reqres.in/ -
 3. Tasks
 - Create User
 - Get Single User by ID (already existing f.e. 12)
