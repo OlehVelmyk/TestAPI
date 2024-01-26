@@ -26,15 +26,14 @@ public class N_0002_GetUserByIdTest {
         GetParametersFromResponses getParameters = new GetParametersFromResponses();
 
         Map data = getParameters.getObjectParameterFromResponse(jsonPathEvaluator, "data");
-        getParameters.getStringParameterFromObject(data, "id");
+        getParameters.getStringParameterFromObjectForEquals(data, "id", UserId.userID);
         getParameters.getStringParameterFromObject(data, "email");
         getParameters.getStringParameterFromObject(data, "first_name");
         getParameters.getStringParameterFromObject(data, "last_name");
         getParameters.getStringParameterFromObject(data, "avatar");
 
-        Map ad = getParameters.getObjectParameterFromResponse(jsonPathEvaluator, "ad");
-        getParameters.getStringParameterFromObject(ad, "company");
-        getParameters.getStringParameterFromObject(ad, "url");
-        getParameters.getStringParameterFromObject(ad, "text");
+        Map support = getParameters.getObjectParameterFromResponse(jsonPathEvaluator, "support");
+        getParameters.getStringParameterFromObject(support, "url");
+        getParameters.getStringParameterFromObject(support, "text");
     }
 }

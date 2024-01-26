@@ -29,4 +29,11 @@ public class GetParametersFromResponses {
         System.out.println("'" + s + "' " + "parameter received from Response is " + "'" + response.toString() + "'");
         Assert.assertNotEquals(response.toString(), null);
     }
+
+    public void getStringParameterFromObjectForEquals(Map map, String s, int value) {
+        Object response = map.get(s);
+        CustomReporter.logAction("'" + s + "' " + "parameter received from Response is " + "'" + response.toString() + "'");
+        System.out.println("'" + s + "' " + "parameter received from Response is " + "'" + response.toString() + "'");
+        Assert.assertEquals(Integer.valueOf(response.toString()), value);
+    }
 }
